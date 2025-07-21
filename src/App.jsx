@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Card name={name} setName={setName} />
+      <p>Hello How are you, my name is: {name}</p>
     </>
   );
 }
